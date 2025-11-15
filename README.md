@@ -34,3 +34,7 @@
 - `ci` modify CI configuration and scripts
 - `types` type definition file changes
 - `wip` in development
+
+## test
+- 分支的管理
+- git message 规范
