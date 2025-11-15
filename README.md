@@ -23,6 +23,8 @@
 - git push origin feat-user:feat-user-new    本地 feat-user 指向远程仓库的 feat-user-new 分支
 - git branch 查看当前本地有哪些分支
 - git checkout  如果当前分支的修改没有提交（git commit）则切换分支不会成功
+- git status  查看当前暂存有哪些文件被修改（文件修改状态）
+- git diff   查看当前文件的修改记录
 
 ## git 规范
 
