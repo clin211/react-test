@@ -22,6 +22,9 @@
 - git checkout -b feat-user  基于当前分支创建 feat-user 分支，且自动切到 feat-user 分支
 - git push origin feat-user:feat-user-new    本地 feat-user 指向远程仓库的 feat-user-new 分支
 - git branch 查看当前本地有哪些分支
+- git branch -a 查看本地和远程的所有分支
+- git branch -d <分支名> 删除指定分支；在当前分支是不能删除当前分支的
+- git push origin -d <分支名> 删除指定的远程仓库的地址
 - git checkout  如果当前分支的修改没有提交（git commit）则切换分支不会成功
 - git status  查看当前暂存有哪些文件被修改（文件修改状态）
 - git diff   查看当前文件的修改记录
