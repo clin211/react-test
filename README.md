@@ -14,3 +14,23 @@
 
 - git init 初始化本地仓库
 - git add .
+- git commit -m "<规范前缀>(范围): 描述"
+- git log
+- git log --online
+- git remote add <远程仓库地址>   比如：git remote add origin <https://github.com/clin211/react-test.git>
+- git push -u origin main
+
+## git 规范
+
+- `feat` new features
+- `fix` fix the
+- `docs` documentation or comments
+- `style` code format (changes that do not affect code execution)
+- `refactor` refactor
+- `perf` performance optimization
+- `revert` revert commit
+- `test` test related
+- `chore` changes in the construction process or auxiliary tools
+- `ci` modify CI configuration and scripts
+- `types` type definition file changes
+- `wip` in development
