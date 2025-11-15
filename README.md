@@ -20,6 +20,8 @@
 - git push -u origin main
 - git checkout -b feat-user  基于当前分支创建 feat-user 分支，且自动切到 feat-user 分支
 - git push origin feat-user:feat-user-new    本地 feat-user 指向远程仓库的 feat-user-new 分支
+- git branch 查看当前本地有哪些分支
+- git checkout  如果当前分支的修改没有提交（git commit）则切换分支不会成功
 
 ## git 规范
 
