@@ -28,6 +28,12 @@
 - git checkout  如果当前分支的修改没有提交（git commit）则切换分支不会成功
 - git status  查看当前暂存有哪些文件被修改（文件修改状态）
 - git diff   查看当前文件的修改记录
+- git clone
+  - git clone <目标仓库的地址>
+  - git clone <目标仓库的地址> -b <分支名>
+  - git clone <目标仓库的地址> <目录名称>
+- git fetch
+- git pull
 
 ## git 规范
 
