@@ -8,7 +8,6 @@
 6. 之后只需要 git push
 7. （在代码托管平台发起 Pull Request/Merge Request 请求合并到主分支）
 8. 切换回主分支并更新：git checkout main && git pull
-9. （可选）删除本地功能分支：git branch -d my-feature
 
 ## Command
 
@@ -20,6 +19,10 @@
 - git remote add <远程仓库地址>   比如：git remote add origin <https://github.com/clin211/react-test.git>
 - git push -u origin main
 - git merge <目标分支>  将目标分支合并到当前分支
+- git checkout -b feat-user  基于当前分支创建 feat-user 分支，且自动切到 feat-user 分支
+- git push origin feat-user:feat-user-new    本地 feat-user 指向远程仓库的 feat-user-new 分支
+- git branch 查看当前本地有哪些分支
+- git checkout  如果当前分支的修改没有提交（git commit）则切换分支不会成功
 
 ## git 规范
 
@@ -30,6 +33,7 @@
 - `refactor` refactor
 - `perf` performance optimization
 - `revert` revert commit
+- `merge` code merge
 - `test` test related
 - `chore` changes in the construction process or auxiliary tools
 - `ci` modify CI configuration and scripts
@@ -37,5 +41,6 @@
 - `wip` in development
 
 ## test
+
 - 分支的管理
 - git message 规范
