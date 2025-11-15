@@ -19,6 +19,7 @@
 - git remote add <远程仓库地址>   比如：git remote add origin <https://github.com/clin211/react-test.git>
 - git push -u origin main
 - git checkout -b feat-user  基于当前分支创建 feat-user 分支，且自动切到 feat-user 分支
+- git push origin feat-user:feat-user-new    本地 feat-user 指向远程仓库的 feat-user-new 分支
 
 ## git 规范
 
