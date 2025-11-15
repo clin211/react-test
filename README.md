@@ -36,6 +36,7 @@
 - git pull
 -  git reset --soft <hash> 软回退 只移动 head 指针
 -  git reset --hard <hash> 硬回退，不会保留历史记录
+-  git commit --amend 修改 git message
 
 ## git 规范
 
