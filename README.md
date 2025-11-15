@@ -19,6 +19,7 @@
 - git log --online
 - git remote add <远程仓库地址>   比如：git remote add origin <https://github.com/clin211/react-test.git>
 - git push -u origin main
+- git merge <目标分支>  将目标分支合并到当前分支
 
 ## git 规范
 
